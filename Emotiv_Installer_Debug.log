@@ -1,0 +1,314 @@
+ECHO is on.
+[2026-07-08T16:16:18.267Z] Controller: os version:11 
+[2026-07-08T16:16:18.316Z] Controller: cpu arch:x86_64 
+[2026-07-08T16:16:18.377Z] Controller: IntroductionPageCallback 
+[2026-07-08T16:16:18.429Z] Controller: IntroductionPageCallback:false:false:false:true::0: 
+[2026-07-08T16:16:37.461Z] Controller: Controller.prototype.ReadyForInstallationPageCallback 
+[2026-07-08T16:16:37.503Z] Controller: is uninstaller 
+[2026-07-08T16:16:37.591Z] Controller: Component file path:C:/Program Files/EmotivApps\components.xml 
+[2026-07-08T16:16:37.626Z] Controller: Component file existing 
+[2026-07-08T16:16:37.660Z] Controller: line[0]=<Packages> 
+[2026-07-08T16:16:37.692Z] Controller: line[1]=    <ApplicationName>Emotiv application</ApplicationName> 
+[2026-07-08T16:16:37.723Z] Controller: line[2]=    <ApplicationVersion>1.0.0</ApplicationVersion> 
+[2026-07-08T16:16:37.757Z] Controller: line[3]=    <Package> 
+[2026-07-08T16:16:37.808Z] Controller: line[4]=        <Name>com.emotiv.cortex</Name> 
+[2026-07-08T16:16:37.842Z] Controller: line[5]=        <Title>EMOTIV Launcher</Title> 
+[2026-07-08T16:16:37.874Z] Controller: line[6]=        <Description>&lt;html>&lt;body>Install Emotiv Cortex Service and EMOTIV Launcher.&lt;br />&lt;br />View &lt;a href=\"https://emotiv.gitbook.io/cortex-api/release-notes^\">&lt;u>Cortex Service Release Notes&lt;/u>&lt;/a> and &lt;a href=\"https://emotiv.gitbook.io/emotiv-launcher/release-notes/v3.0^\">&lt;u>EMOTIV Launcher Release Notes&lt;/u>&lt;/a>&lt;/body>&lt;/html></Description> 
+[2026-07-08T16:16:37.910Z] Controller: line[7]=        <SortingPriority>300</SortingPriority> 
+[2026-07-08T16:16:37.943Z] Controller: line[8]=        <TreeName moveChildren=\"false^\"></TreeName> 
+[2026-07-08T16:16:37.974Z] Controller: line[9]=        <Version>4.8.52.424.1</Version> 
+[2026-07-08T16:16:38.006Z] Controller: line[10]=        <LastUpdateDate></LastUpdateDate> 
+[2026-07-08T16:16:38.036Z] Controller: line[11]=        <InstallDate>2026-06-11</InstallDate> 
+[2026-07-08T16:16:38.067Z] Controller: line[12]=        <Size>557901283</Size> 
+[2026-07-08T16:16:38.100Z] Controller: line[13]=        <ForcedInstallation>true</ForcedInstallation> 
+[2026-07-08T16:16:38.131Z] Controller: line[14]=    </Package> 
+[2026-07-08T16:16:38.161Z] Controller: line[15]=    <Package> 
+[2026-07-08T16:16:38.192Z] Controller: line[16]=        <Name>com.emotiv.emotivbci</Name> 
+[2026-07-08T16:16:38.224Z] Controller: line[17]=        <Title>EmotivBCI</Title> 
+[2026-07-08T16:16:38.257Z] Controller: line[18]=        <Description>&lt;html>&lt;body>Install EmotivBCI Application.&lt;br />&lt;br />View &lt;a href=\"https://emotiv.gitbook.io/emotivbci/release-notes^\">&lt;u>EmotivBCI Release Notes&lt;/u>&lt;/a>&lt;/body>&lt;/html></Description> 
+[2026-07-08T16:16:38.294Z] Controller: line[19]=        <SortingPriority>100</SortingPriority> 
+[2026-07-08T16:16:38.339Z] Controller: line[20]=        <TreeName moveChildren=\"false^\"></TreeName> 
+[2026-07-08T16:16:38.391Z] Controller: line[21]=        <Version>4.8.52.328</Version> 
+[2026-07-08T16:16:38.435Z] Controller: line[22]=        <LastUpdateDate></LastUpdateDate> 
+[2026-07-08T16:16:38.470Z] Controller: line[23]=        <InstallDate>2026-06-11</InstallDate> 
+[2026-07-08T16:16:38.518Z] Controller: line[24]=        <Size>26130718</Size> 
+[2026-07-08T16:16:38.558Z] Controller: line[25]=        <Checkable>true</Checkable> 
+[2026-07-08T16:16:38.612Z] Controller: line[26]=    </Package> 
+[2026-07-08T16:16:38.656Z] Controller: line[27]=    <Package> 
+[2026-07-08T16:16:38.693Z] Controller: line[28]=        <Name>com.emotiv.emotivbrainviz</Name> 
+[2026-07-08T16:16:38.727Z] Controller: line[29]=        <Title>Emotiv BrainViz</Title> 
+[2026-07-08T16:16:38.764Z] Controller: line[30]=        <Description>&lt;html>&lt;body>Install Emotiv BrainViz Application.&lt;br />&lt;br />View &lt;a href=\"https://emotiv.gitbook.io/emotiv-brainviz/release_notes^\">&lt;u>Emotiv BrainViz Release Notes&lt;/u>&lt;/a>&lt;/body>&lt;/html></Description> 
+[2026-07-08T16:16:38.802Z] Controller: line[31]=        <SortingPriority>200</SortingPriority> 
+[2026-07-08T16:16:38.837Z] Controller: line[32]=        <TreeName moveChildren=\"false^\"></TreeName> 
+[2026-07-08T16:16:38.870Z] Controller: line[33]=        <Version>4.8.52.188</Version> 
+[2026-07-08T16:16:38.902Z] Controller: line[34]=        <LastUpdateDate></LastUpdateDate> 
+[2026-07-08T16:16:38.945Z] Controller: line[35]=        <InstallDate>2026-06-11</InstallDate> 
+[2026-07-08T16:16:38.984Z] Controller: line[36]=        <Size>191803529</Size> 
+[2026-07-08T16:16:39.030Z] Controller: line[37]=        <Checkable>true</Checkable> 
+[2026-07-08T16:16:39.078Z] Controller: line[38]=    </Package> 
+[2026-07-08T16:16:39.110Z] Controller: line[39]=    <Package> 
+[2026-07-08T16:16:39.157Z] Controller: line[40]=        <Name>com.emotiv.emotivmaintenance</Name> 
+[2026-07-08T16:16:39.258Z] Controller: line[41]=        <Title>Maintenance Tool</Title> 
+[2026-07-08T16:16:39.306Z] Controller: line[42]=        <Description>Emotiv Maintenance Tool to update EMOTIV applications</Description> 
+[2026-07-08T16:16:39.348Z] Controller: line[43]=        <SortingPriority>0</SortingPriority> 
+[2026-07-08T16:16:39.400Z] Controller: line[44]=        <TreeName moveChildren=\"false^\"></TreeName> 
+[2026-07-08T16:16:39.450Z] Controller: line[45]=        <Version>4.8.47</Version> 
+[2026-07-08T16:16:39.499Z] Controller: line[46]=        <LastUpdateDate></LastUpdateDate> 
+[2026-07-08T16:16:39.560Z] Controller: line[47]=        <InstallDate>2026-06-11</InstallDate> 
+[2026-07-08T16:16:39.615Z] Controller: line[48]=        <Size>51151930</Size> 
+[2026-07-08T16:16:39.653Z] Controller: line[49]=        <ForcedInstallation>true</ForcedInstallation> 
+[2026-07-08T16:16:39.690Z] Controller: line[50]=        <Virtual>true</Virtual> 
+[2026-07-08T16:16:39.724Z] Controller: line[51]=    </Package> 
+[2026-07-08T16:16:39.756Z] Controller: line[52]=    <Package> 
+[2026-07-08T16:16:39.850Z] Controller: line[53]=        <Name>com.emotiv.emotivpro</Name> 
+[2026-07-08T16:16:39.882Z] Controller: line[54]=        <Title>EmotivPRO</Title> 
+[2026-07-08T16:16:39.919Z] Controller: line[55]=        <Description>&lt;html>&lt;body>Install EmotivPRO Application.&lt;br />&lt;br />View &lt;a href=\"https://emotiv.gitbook.io/emotivpro-v3/release-notes/v3.0^\">&lt;u>EmotivPRO Release Notes&lt;/u>&lt;/a>&lt;/body>&lt;/html></Description> 
+[2026-07-08T16:16:39.955Z] Controller: line[56]=        <SortingPriority>200</SortingPriority> 
+[2026-07-08T16:16:40.018Z] Controller: line[57]=        <TreeName moveChildren=\"false^\"></TreeName> 
+[2026-07-08T16:16:40.053Z] Controller: line[58]=        <Version>4.8.52.607</Version> 
+[2026-07-08T16:16:40.084Z] Controller: line[59]=        <LastUpdateDate></LastUpdateDate> 
+[2026-07-08T16:16:40.114Z] Controller: line[60]=        <InstallDate>2026-06-11</InstallDate> 
+[2026-07-08T16:16:40.147Z] Controller: line[61]=        <Size>46332590</Size> 
+[2026-07-08T16:16:40.181Z] Controller: line[62]=        <Checkable>true</Checkable> 
+[2026-07-08T16:16:40.215Z] Controller: line[63]=    </Package> 
+[2026-07-08T16:16:40.246Z] Controller: line[64]=</Packages> 
+[2026-07-08T16:16:40.280Z] Controller: line[65]= 
+[2026-07-08T16:16:40.392Z] Controller: closing >>>EMOTIV Launcher 
+[2026-07-08T16:16:40.429Z] Controller: closeProcess:EMOTIV Launcher:false:undefined 
+[2026-07-08T16:16:40.462Z] Controller: isProcessRunning:EMOTIV Launcher.exe 
+[2026-07-08T16:16:40.673Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        EMOTIV Launcher.exe          20672 Console                   11     38,860 K 
+                        ,0 
+[2026-07-08T16:16:40.977Z] Controller: isProcessRunning:EMOTIV Launcher.exe 
+[2026-07-08T16:16:41.136Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        EMOTIV Launcher.exe          20672 Console                   11     38,860 K 
+                        ,0 
+[2026-07-08T16:16:41.423Z] Controller: normal kill result:SUCCESS: Sent termination signal to the process \"EMOTIV Launcher.exe^\" with PID 20672. 
+                        ,0 
+[2026-07-08T16:16:41.483Z] Controller: isProcessRunning:EMOTIV Launcher.exe 
+[2026-07-08T16:16:41.642Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        EMOTIV Launcher.exe          20672 Console                   11     38,860 K 
+                        ,0 
+[2026-07-08T16:16:41.969Z] Controller: normal kill result:SUCCESS: Sent termination signal to the process \"EMOTIV Launcher.exe^\" with PID 20672. 
+                        ,0 
+[2026-07-08T16:16:42.031Z] Controller: isProcessRunning:EMOTIV Launcher.exe 
+[2026-07-08T16:16:42.194Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        EMOTIV Launcher.exe          20672 Console                   11     38,860 K 
+                        ,0 
+[2026-07-08T16:16:42.544Z] Controller: force kill result:SUCCESS: The process \"EMOTIV Launcher.exe^\" with PID 20672 has been terminated. 
+                        ,0 
+[2026-07-08T16:16:42.622Z] Controller: kill EMOTIV Launcher process result:SUCCESS: Sent termination signal to the process \"EMOTIV Launcher.exe^\" with PID 20672. 
+                        ,0 
+[2026-07-08T16:16:42.704Z] Controller: PerformInstallationPageCallback 
+[2026-07-08T16:16:42.749Z] Controller: closeAllProcesses 
+[2026-07-08T16:16:42.798Z] Controller: Controller.prototype.uninstallationStartedSlot 
+[2026-07-08T16:16:47.348Z] Controller: closeProcess:CortexService:true:3 
+[2026-07-08T16:16:47.435Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:47.621Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe            14944 Services                   0     13,704 K 
+                        ,0 
+[2026-07-08T16:16:47.886Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:48.063Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:48.132Z] Controller: kill CortexService process result:SUCCESS: The process \"CortexService.exe^\" with PID 14944 has been terminated. 
+                        ,0 
+[2026-07-08T16:16:48.193Z] Controller: closeProcess:CortexSync:true:3 
+[2026-07-08T16:16:48.236Z] Controller: isProcessRunning:CortexSync.exe 
+[2026-07-08T16:16:48.417Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexSync.exe               16180 Services                   0      9,880 K 
+                        ,0 
+[2026-07-08T16:16:48.697Z] Controller: isProcessRunning:CortexSync.exe 
+[2026-07-08T16:16:48.883Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:48.949Z] Controller: kill CortexSync process result:SUCCESS: The process \"CortexSync.exe^\" with PID 16180 has been terminated. 
+                        ,0 
+[2026-07-08T16:16:49.008Z] Controller: stopEmotivServices for windows 
+[2026-07-08T16:16:49.028Z] Controller: trying to stop service:EmotivCloudSyncService:CortexSync 
+[2026-07-08T16:16:49.095Z] Controller: query res: 
+                        SERVICE_NAME: EmotivCloudSyncService  
+                                TYPE               : 10  WIN32_OWN_PROCESS   
+                                STATE              : 1  STOPPED  
+                                WIN32_EXIT_CODE    : 1067  (0x42b) 
+                                SERVICE_EXIT_CODE  : 0  (0x0) 
+                                CHECKPOINT         : 0x0 
+                                WAIT_HINT          : 0x0 
+                        ,0 
+[2026-07-08T16:16:49.352Z] Controller: closeProcess:CortexSync:false:8 
+[2026-07-08T16:16:49.377Z] Controller: isProcessRunning:CortexSync.exe 
+[2026-07-08T16:16:49.534Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:49.599Z] Controller: qc res: [SC] QueryServiceConfig SUCCESS 
+                        SERVICE_NAME: EmotivCloudSyncService 
+                                TYPE               : 10  WIN32_OWN_PROCESS  
+                                START_TYPE         : 2   AUTO_START  (DELAYED) 
+                                ERROR_CONTROL      : 1   NORMAL 
+                                BINARY_PATH_NAME   : C:/Program Files/EmotivApps\CortexSync.exe 
+                                LOAD_ORDER_GROUP   :  
+                                TAG                : 0 
+                                DISPLAY_NAME       : Emotiv CortexSync V2 
+                                DEPENDENCIES       :  
+                                SERVICE_START_NAME : LocalSystem 
+                        ,0 
+[2026-07-08T16:16:50.042Z] Controller: stopServiceOnWindows:EmotivCloudSyncService:CortexSync 
+[2026-07-08T16:16:50.098Z] Controller: stop result:[SC] ControlService FAILED 1062: 
+                        The service has not been started. 
+                        ,1062 
+[2026-07-08T16:16:50.202Z] Controller: closeProcess:CortexSync:false:8 
+[2026-07-08T16:16:50.233Z] Controller: isProcessRunning:CortexSync.exe 
+[2026-07-08T16:16:50.408Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:50.477Z] Controller: stopServiceOnWindows: not stopped 
+[2026-07-08T16:16:50.518Z] Controller: stop result:[SC] ControlService FAILED 1062: 
+                        The service has not been started. 
+                        ,1062 
+[2026-07-08T16:16:50.613Z] Controller: closeProcess:CortexSync:false:8 
+[2026-07-08T16:16:50.642Z] Controller: isProcessRunning:CortexSync.exe 
+[2026-07-08T16:16:50.883Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:50.931Z] Controller: deleting Cortex Service 
+[2026-07-08T16:16:50.978Z] Controller: deleteRes:[SC] DeleteService SUCCESS 
+                        ,0 
+[2026-07-08T16:16:53.103Z] Controller: re-run QC res:[SC] OpenService FAILED 1060: 
+                        The specified service does not exist as an installed service. 
+                        ,1060 
+[2026-07-08T16:16:53.177Z] Controller: trying to stop service:EmotivCortexServiceV2:CortexService 
+[2026-07-08T16:16:53.228Z] Controller: query res: 
+                        SERVICE_NAME: EmotivCortexServiceV2  
+                                TYPE               : 10  WIN32_OWN_PROCESS   
+                                STATE              : 2  START_PENDING  
+                                                        (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN) 
+                                WIN32_EXIT_CODE    : 0  (0x0) 
+                                SERVICE_EXIT_CODE  : 0  (0x0) 
+                                CHECKPOINT         : 0x0 
+                                WAIT_HINT          : 0x7d0 
+                        ,0 
+[2026-07-08T16:16:53.534Z] Controller: closeProcess:CortexService:false:8 
+[2026-07-08T16:16:53.550Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:53.768Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:53.816Z] Controller: stopServiceOnWindows:EmotivCortexServiceV2:CortexService 
+[2026-07-08T16:16:53.864Z] Controller: stop result:[SC] ControlService FAILED 1062: 
+                        The service has not been started. 
+                        ,1062 
+[2026-07-08T16:16:53.934Z] Controller: closeProcess:CortexService:false:8 
+[2026-07-08T16:16:53.965Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:54.149Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:54.197Z] Controller: stopServiceOnWindows: not stopped 
+[2026-07-08T16:16:54.245Z] Controller: stop result:[SC] ControlService FAILED 1062: 
+                        The service has not been started. 
+                        ,1062 
+[2026-07-08T16:16:54.356Z] Controller: closeProcess:CortexService:false:8 
+[2026-07-08T16:16:54.387Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:54.578Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:16:56.734Z] Controller: stopServiceOnWindows: not stopped 
+[2026-07-08T16:16:56.785Z] Controller: stop result: 
+                        SERVICE_NAME: EmotivCortexServiceV2  
+                                TYPE               : 10  WIN32_OWN_PROCESS   
+                                STATE              : 3  STOP_PENDING  
+                                                        (STOPPABLE, PAUSABLE, ACCEPTS_PRESHUTDOWN) 
+                                WIN32_EXIT_CODE    : 0  (0x0) 
+                                SERVICE_EXIT_CODE  : 0  (0x0) 
+                                CHECKPOINT         : 0x0 
+                                WAIT_HINT          : 0x7530 
+                        ,0 
+[2026-07-08T16:16:57.046Z] Controller: closeProcess:CortexService:false:8 
+[2026-07-08T16:16:57.068Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:57.232Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,544 K 
+                        ,0 
+[2026-07-08T16:16:57.491Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:57.660Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,544 K 
+                        ,0 
+[2026-07-08T16:16:57.945Z] Controller: normal kill result:,1 
+[2026-07-08T16:16:57.967Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:58.124Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,544 K 
+                        ,0 
+[2026-07-08T16:16:58.499Z] Controller: normal kill result:,1 
+[2026-07-08T16:16:58.519Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:58.726Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,544 K 
+                        ,0 
+[2026-07-08T16:16:59.077Z] Controller: normal kill result:,1 
+[2026-07-08T16:16:59.108Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:59.251Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,568 K 
+                        ,0 
+[2026-07-08T16:16:59.553Z] Controller: normal kill result:,1 
+[2026-07-08T16:16:59.585Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:16:59.740Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,568 K 
+                        ,0 
+[2026-07-08T16:17:00.025Z] Controller: normal kill result:,1 
+[2026-07-08T16:17:00.059Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:17:00.218Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,568 K 
+                        ,0 
+[2026-07-08T16:17:00.502Z] Controller: normal kill result:,1 
+[2026-07-08T16:17:00.528Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:17:00.693Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,616 K 
+                        ,0 
+[2026-07-08T16:17:01.080Z] Controller: normal kill result:,1 
+[2026-07-08T16:17:01.112Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:17:01.306Z] Controller: isProcessRunning->res: 
+                        Image Name                     PID Session Name        Session#    Mem Usage 
+                        ========================= ======== ================ =========== ============ 
+                        CortexService.exe             8556 Services                   0     55,616 K 
+                        ,0 
+[2026-07-08T16:17:01.667Z] Controller: force kill result:SUCCESS: The process \"CortexService.exe^\" with PID 8556 has been terminated. 
+                        ,0 
+[2026-07-08T16:17:01.738Z] Controller: kill CortexService process result:,1 
+[2026-07-08T16:17:03.948Z] Controller: closeProcess:CortexService:false:8 
+[2026-07-08T16:17:03.996Z] Controller: isProcessRunning:CortexService.exe 
+[2026-07-08T16:17:04.154Z] Controller: isProcessRunning->res:INFO: No tasks are running which match the specified criteria. 
+                        ,0 
+[2026-07-08T16:17:04.220Z] Controller: deleting Cortex Service 
+[2026-07-08T16:17:04.265Z] Controller: deleteRes:[SC] DeleteService SUCCESS 
+                        ,0 
+[2026-07-08T16:17:06.365Z] Controller: re-run QC res:[SC] OpenService FAILED 1060: 
+                        The specified service does not exist as an installed service. 
+                        ,1060 
+[2026-07-08T16:17:06.461Z] Controller: Controller.prototype.statusChangedSlot 
+[2026-07-08T16:17:06.527Z] Controller: status=2 
+[2026-07-08T16:17:06.569Z] Controller: is updater=false 
+[2026-07-08T16:17:06.620Z] Controller: component length=0 
+[2026-07-08T16:17:08.976Z] Controller: Controller.prototype.statusChangedSlot 
+[2026-07-08T16:17:09.001Z] Controller: status=3 
+[2026-07-08T16:17:09.030Z] Controller: is updater=false 
+[2026-07-08T16:17:09.071Z] Controller: component length=0 
+[2026-07-08T16:17:09.097Z] Controller: Controller.prototype.installationFinishedSlot 
+[2026-07-08T16:17:09.140Z] Controller: Auto click commit button after installation finished for PerformInstallationPage 
+[2026-07-08T16:17:09.174Z] Controller: Controller.prototype.uninstallationFinishedSlot 
+[2026-07-08T16:17:09.219Z] Controller: FinishedPageCallback : true:true 

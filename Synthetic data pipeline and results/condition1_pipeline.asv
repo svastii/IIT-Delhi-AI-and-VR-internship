@@ -1,0 +1,105 @@
+%% CONDITION 1
+
+% Load CSV
+T = readtable('C:\Users\hp\Desktop\condition1.csv');
+data = table2array(T);
+data = data';
+
+size(data)
+
+%% Create EEGLAB dataset
+EEG = eeg_emptyset;
+EEG.data = data;
+EEG.nbchan = 14;
+EEG.pnts = size(data,2);
+EEG.trials = 1;
+EEG.srate = 128;
+EEG = eeg_checkset(EEG);
+
+%% Channel labels
+channel_names = {'AF3','F7','F3','FC5','T7','P7','O1',...
+                 'O2','P8','T8','FC6','F4','F8','AF4'};
+
+EEG.chanlocs = [];
+
+for i = 1:14
+    EEG.chanlocs(i).labels = channel_names{i};
+end
+
+%% Raw EEG
+figure;
+plot(EEG.data(:,1:640)' + (0:13)*100);
+title('Condition 1 Raw EEG');
+
+%% Bandpass Filter (0.5–45 Hz)
+EEG = pop_eegfiltnew(EEG,0.5,45);
+
+figure;
+plot(EEG.data(:,1:640)' + (0:13)*100);
+title('Condition 1 After Bandpass');
+
+%% 50 Hz Notch Filter
+EEG = pop_eegfiltnew(EEG,48,52,[],1);
+
+figure;
+plot(EEG.data(:,1:640)' + (0:13)*100);
+title('Condition 1 After Notch');
+
+%% Reassign channel labels before lookup
+EEG.chanlocs = [];
+
+for i = 1:14
+    EEG.chanlocs(i).labels = channel_names{i};
+end
+
+EEG = eeg_checkset(EEG);
+
+%% Add Channel Locations
+EEG = pop_chanedit(EEG,'lookup','standard_1005.elc');
+
+%% PSD
+figure;
+pop_spectopo(EEG,1,[0 EEG.xmax*1000],'EEG');
+title('Condition 1 PSD');
+
+%% Frequency Spectrum
+[spec,freqs] = spectopo(EEG.data,0,EEG.srate);
+
+%% Theta Band (4–8 Hz)
+theta_idx = freqs >= 4 & freqs <= 8;
+theta_power = mean(spec(:,theta_idx),2);
+
+figure;
+topoplot(theta_power,EEG.chanlocs);
+colorbar;
+title('Condition 1 Theta Band Power');
+
+%% Alpha Band (8–13 Hz)
+alpha_idx = freqs >= 8 & freqs <= 13;
+alpha_power = mean(spec(:,alpha_idx),2);
+
+figure;
+topoplot(alpha_power,EEG.chanlocs);
+colorbar;
+title('Condition 1 Alpha Band Power');
+
+%% Beta Band (13–30 Hz)
+beta_idx = freqs >= 13 & freqs <= 30;
+beta_power = mean(spec(:,beta_idx),2);
+
+figure;
+topoplot(beta_power,EEG.chanlocs);
+colorbar;
+title('Condition 1 Beta Band Power');
+
+%% Gamma Band (30–45 Hz)
+gamma_idx = freqs >= 30 & freqs <= 45;
+gamma_power = mean(spec(:,gamma_idx),2);
+
+figure;
+topoplot(gamma_power,EEG.chanlocs);
+colorbar;
+title('Condition 1 Gamma Band Power');
+
+%% Save Dataset
+EEG = pop_saveset(EEG,'filename','condition1_filtered.set');
