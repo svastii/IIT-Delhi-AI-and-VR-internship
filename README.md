@@ -1,12 +1,12 @@
-🧠 AI-Based EEG Signal Processing Pipeline for VR and Non-VR Motor Imagery Analysis
+**🧠AI-Based EEG Signal Processing Pipeline for VR and Non-VR Motor Imagery Analysis**
 
-📌 Project Overview
+**📌 Project Overview**
 
 This repository contains the complete MATLAB implementation of an AI-based EEG preprocessing and feature extraction pipeline developed during my research work on **EEG signal analysis for Virtual Reality (VR) and Non-VR motor imagery experiments**.
 
 The pipeline processes raw EEG recordings acquired from a **14-channel Emotiv EPOC X headset**, removes artifacts, extracts frequency-domain and statistical features, and compares EEG characteristics across VR and Non-VR conditions.
 
-🎯 Objectives
+**🎯 Objectives**
 
 * Preprocess raw EEG recordings.
 * Remove physiological and movement artifacts using ICA.
@@ -15,7 +15,7 @@ The pipeline processes raw EEG recordings acquired from a **14-channel Emotiv EP
 * Generate publication-quality visualizations.
 * Prepare EEG data for machine learning analysis.
 
- 📂 Repository Structure
+ **📂 Repository Structure**
 
 EEG_Actual_VR/
     Raw EEG recordings (VR)
@@ -37,7 +37,7 @@ Synthetic data pipeline and results/
 
 README.md
 
-🧩 EEG Processing Pipeline
+**🧩 EEG Processing Pipeline**
 
 1. Raw EEG Visualization
 2. Channel Selection
